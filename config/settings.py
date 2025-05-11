@@ -22,12 +22,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    # Third-party apps
     'rest_framework',
     'rest_framework_simplejwt',
-
-    # Local apps
     'user',
 ]
 
@@ -140,5 +136,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # EMAIL_HOST = 'smtp.yourservice.com'
 # EMAIL_PORT = 587
 # EMAIL_USE_TLS = True
-# EMAIL_HOST_USER = 'email@example.com'
+# EMAIL_HOST_USER = 'email@gmail.com'
 # EMAIL_HOST_PASSWORD = '_password'
